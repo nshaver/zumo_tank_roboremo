@@ -8,10 +8,10 @@
 #include <ESP8266mDNS.h>
 #include <ESP8266HTTPUpdateServer.h>
 const char* host= "zumo";
-const char* ssid = "Tux24";
-const char* password = "a47a47a47a";
-const char* apssid = "zumo";
-const char* appassword = "a47a47a47a";
+const char* ssid = "your_home_ssid";
+const char* password = "yourwifipassword";
+const char* apssid = "ssid_to_create";
+const char* appassword = "yourwifipassword";
 const int port = 9876; // and this port
 MDNSResponder mdns;
 ESP8266WebServer webserver(80);
